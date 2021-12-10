@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file alias="bubble">res/bubble.png</file>
+    </qresource>
+</RCC>
