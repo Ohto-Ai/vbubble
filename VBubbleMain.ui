@@ -14,8 +14,29 @@
    <string>VBubbleMainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_TEST_bubble">
+    <property name="title">
+     <string>[TEST]</string>
+    </property>
+    <addaction name="actionBubble"/>
+   </widget>
+   <addaction name="menu_TEST_bubble"/>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBubble">
+   <property name="text">
+    <string>bubble</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
