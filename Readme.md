@@ -17,6 +17,13 @@ vbubble是为了适用图形界面而产生的提醒工具，并且拥有Qt的�
 有任何想法、意见、建议，欢迎提issue、request！
 当然也可以请我喝杯茶~
 
+## 开发进度
+- [ ] Calling interface
+- [x] System bubble
+- [ ] Popup bubble
+- [ ] Custom bubble
+- [ ] Enterprise WeChat rebot bubble
+
 [vnotice]: https://github.com/Ohto-Ai/vnotice/
 [ChaiScript]: https://github.com/ChaiScript/ChaiScript/
 [Releases]: https://github.com/Ohto-Ai/vbubble/releases/
